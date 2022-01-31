@@ -84,10 +84,10 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
                 fprintf(stderr, "toggling viewing axis to: %i\n", current_axis);
                 break;
             case GLFW_KEY_1:
-                loadData("../data/lobster.dat");
+                loadData("../../data/lobster.dat");
                 break;
             case GLFW_KEY_2:
-                loadData("../data/skewed_head.dat");
+                loadData("../../data/skewed_head.dat");
                 break;
             case GLFW_KEY_B:
                 nextClearColor();
@@ -215,8 +215,8 @@ bool initApplication(int argc, char **argv)
 // set up the scene: shaders, VAO, ..etc
 void setup() {
     // compile & link the shaders
-    program.compileShader("../shaders/vertex.vs");
-    program.compileShader("../shaders/fragment.fs");
+    program.compileShader("../../shaders/vertex.vs");
+    program.compileShader("../../shaders/fragment.fs");
     program.link();
 
     // TODO: make slices

@@ -1,22 +1,22 @@
+# Assignment 1 Description (7% of total grade) #
+**Due: February 13th**
 
-# Assignment 0 Description (5% of total grade)
+Display slice along user-specified axis and slice position!
 
-**Due: January 31st**
+## Minimum Requirements ##
 
-----------------------------------
+* Download data into 3D volume texture. (10 points)
+* Display 3 different axis-aligned slices using OpenGL texture mapping and the 3D volume texture. (60 points)
+* The slice position should be adjustable for each slice view. (15 points)
++ Make sure the aspect ratio of the shown slices is correct. (data aspect ratio) (15 points)
+    * If the window is resized, the slice is resized with the correct aspect ratio (no distortions) 
 
-Introductory OpenGL assignment: The purpose of this assignment is to show your familiarity with OpenGL via performing some simple OpenGL tasks that will be used throughout the course.
+## Bonus ##
 
-## Minimum Requirements
-* Draw a cube with a different color for each face. (15 points)
-* Enable user initiated transformations via keyboard/mouse clicks. (30 points)
-  * Rotation 
-  * Scaling 
-  * Translation
-* Generate a checkerboard texture. (25 points)
-* Apply texture to some/all of the faces of the mesh. (15 points)
-* Enable switch between orthographic and perspective projections. (15 points)
+* Show all three axis aligned slices at once. (+6 points)
+* Show arbitrarily (not orthogonal) aligned slice(s) with an interface to change the angle of the slice. (+15 points)
 
-## Sample Output
-* Please find a sample output on this link: https://www.youtube.com/watch?v=5d6JBqpGnrE&feature=youtu.be
-
+## Screenshots for Minimum Requirements Solution ##
+![3642965424-screenshot1.png](sample_outputs/output1.png)
+![1808400465-screenshot2.png](sample_outputs/output2.png)
+![3487665660-screenshot3.png](sample_outputs/output3.png)
