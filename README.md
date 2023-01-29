@@ -1,5 +1,5 @@
 # Assignment 1 Description (7% of total grade) #
-**Due: February 13th**
+**Due: February 12th**
 
 Display slice along user-specified axis and slice position!
 
